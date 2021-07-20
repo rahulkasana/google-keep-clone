@@ -1,6 +1,10 @@
-@tailwind components;
-@tailwind utilities;
-
 .background {
   @apply flex;
+}
+.text-area {
+  @apply rounded-lg p-2 border-2 border-dashed border-gray-600;
+  min-height: 3rem;
+}
+:focus {
+  @apply outline-none border-solid;
 }
