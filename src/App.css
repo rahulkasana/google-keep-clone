@@ -1,10 +1,14 @@
 .background {
   @apply flex;
 }
+.input-container {
+  @apply flex flex-col w-1/2 p-2 rounded-lg focus-within:border-transparent focus:border-transparent focus-within:shadow rounded-lg border-2 border-dashed border-gray-600 text-sm font-medium;
+  min-height: 15rem;
+}
 .text-area {
-  @apply rounded-lg p-2 border-2 border-dashed border-gray-600;
+  @apply rounded-lg p-2 border-2 border-dashed border-gray-200;
   min-height: 3rem;
 }
 :focus {
-  @apply outline-none border-solid;
+  @apply outline-none border-solid border-gray-600;
 }
