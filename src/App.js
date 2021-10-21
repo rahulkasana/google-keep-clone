@@ -1,6 +1,7 @@
 import "./App.css";
 
 function App() {
+      console.log("---- abbbbb ----");
   return (
     <div className="flex h-full w-full bg-gray-100">
       <div className="flex w-full h-full justify-center items-start p-4">
